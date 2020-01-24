@@ -1,6 +1,56 @@
 
-.container {
+body{
+    background-image: url("Champions-League.jpg");
+}
 
-    border: 2px solid red;
+.container{
+    width: 90%;
+}
 
+.video-container{
+    margin-top: .5rem;
+}
+
+#prevNext{
+    position: relative;
+    margin-top: 8%;
+}
+
+.card-panel{
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1em;
+    height: 10%;
+    line-height: 1;
+}
+
+#pageTwo{
+    display: none;
+}
+
+.card{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+/* ************************* */
+
+.dropdown-trigger{
+    margin-left: 35%;
+    background-color: darkslategray;
+}
+
+#selectedTeam2{
+    /* margin-left: 28%; */
+    margin-top: 50%; 
+    background-color: midnightblue;
+}
+#selectedTeam1{
+    margin-top: 50%;
+    background-color: midnightblue;
+}
+#goBtn{
+    margin-top: 50%;
+    margin-left:10%;
 }
