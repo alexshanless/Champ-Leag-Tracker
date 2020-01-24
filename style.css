@@ -1,6 +1,25 @@
+#header {
+
+    border: 2px solid blue;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    /* vertical-align: middle; */
+    
+}
+
+#btn{
+
+    float: right; 
+    width: 50px;
+    height: 25px; 
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
 
 .container {
-
     border: 2px solid red;
-
+    margin-top: 5%;
 }

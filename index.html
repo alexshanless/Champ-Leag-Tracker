@@ -7,22 +7,49 @@
     <title>Document</title>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-     
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-wrapper">
-          <a href="" class="brand-logo">Logo</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="">sass</a></li>
-            <li><a href="">sass <span class="new badge">4</span></a></li>
-            <li><a href="">sass</a></li>
-          </ul>
-        </div>
-      </nav>
+    <header id="header">
+        <h5>Champions League</h5>
+        <button id="btn" onclick="myFunction()"></button>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="input-field col s12 m6 lg6">
+                <select>
+                <option value=""disabled selected>Choose your option</option>
+                <option value="1">Aston Villa</option>
+                <option value="2">Crystal Palace</option>
+                <option value="3">Newcastle United</option>
+                </select>
+                <label>Choose Team:</label>
+            </div>
+            <div class="input-field col s12 m6 lg6">
+                    <select>
+                    <option value=""disabled selected>Choose your option</option>
+                    <option value="1">2015</option>
+                    <option value="2">2014</option>
+                    <option value="3">2013</option>
+                    </select>
+                    <label>Choose Year:</label>
+            </div>
+            
+              
+        </div>        
+        <!-- <div class="row">        
+
+        </div> -->
+    </div>
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="testing.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
