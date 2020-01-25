@@ -22,10 +22,6 @@ $.ajax({
             console.log (arrTeams);
         }
       
-    
-       
-
-        
     });
 
   
