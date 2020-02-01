@@ -23,3 +23,4 @@ Enables users to get the most current game data and videos from the Champions Le
 ## License
 
 This project is licensed under the MIT License.
+
