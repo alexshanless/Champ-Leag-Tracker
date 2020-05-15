@@ -2,7 +2,7 @@
 Enables users to get the most current game data and videos from the Champions League.  Users need to select two teams from the dropdown and press "Go" to view game date or schedule information.  Additionally, videos of games played will be available.
 
 ## Link To Application
-[Champions League Tracker](https://alexshanless.github.io/project01/)
+[Champions League Tracker](http://devshan.com/Champ-Leag-Tracker/)
 
 ## Built With
 
